@@ -21,6 +21,8 @@ type Source struct {
 	Labels             []string `json:"labels,omitempty"`
 	TargetBranch       string   `json:"target_branch,omitempty"`
 	Sort               string   `json:"sort,omitempty"`
+	Paths			   []string	`json:"paths,omitempty"`
+	IgnorePaths		   []string	`json:"ignore_paths,omitempty"`
 }
 
 type Version struct {
