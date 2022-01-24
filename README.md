@@ -30,6 +30,8 @@ resources:
 * `labels`(string[]): Filter merge requests by label`[]`
 * `target_branch`(string): Filter merge requests by target_branch. Default is empty string.
 * `sort` (string): Merge requests sorting order, either `asc` (default) or `desc` to reverse.
+* `paths` (string[]): Paths to include
+* `ignore_paths` (string[]): Paths to exclude
 
 ## Behavior
 
